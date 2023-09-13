@@ -1,2 +1,2 @@
-import webbrowser as wb
-wb.open("pranarai.ac.th")
+import webbrowser
+webbrowser.open("pranarai.ac.th")
